@@ -28,6 +28,7 @@ for (let button of buttons) {
 
        seatrate+=550
        setInnerTextById('seat-rate',seatrate );
+       setInnerTextById('Grand-total',seatrate )
 
     
 
@@ -57,6 +58,3 @@ document.getElementById("button-applay").addEventListener("click", function () {
   }
   document.getElementById("cupon-section").classList.add("hidden");
 })
-
-
-
