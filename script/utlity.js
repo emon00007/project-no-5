@@ -21,7 +21,3 @@ function disableRemainingButtons() {
         }
     }
 }
-function checkName(name) {
-    if (typeof number !== 'number') {
-        return 'invalid'
-    }}

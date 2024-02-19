@@ -30,7 +30,9 @@ for (let button of buttons) {
        setInnerTextById('seat-rate',seatrate );
        setInnerTextById('Grand-total',seatrate )
 
-    
+       if (count>0){
+        removeAttebutes('submit-button')
+    }
 
     if (count === maxSeats) {
         disableRemainingButtons();
